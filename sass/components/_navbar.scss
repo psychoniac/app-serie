@@ -1,0 +1,23 @@
+
+nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    & ul{
+        width: 100%;
+        display: flex;
+        list-style-type: none;
+        font-family:  $font-list;
+        font-weight: 700;
+        font-size: 30px;
+        & li{
+            min-width: 25%;
+            text-align: center;
+            & a{
+                color: $color-redDark;
+                text-decoration: none;
+
+            }
+        }
+    }
+}

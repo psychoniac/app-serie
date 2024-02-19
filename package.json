@@ -1,0 +1,14 @@
+{
+  "name": "app_serie",
+  "version": "1.0.0",
+  "description": "projet d'app pour suivie des séries regardé",
+  "main": "main.js",
+  "scripts": {
+    "sass": "sass --watch main.scss style.css "
+  },
+  "author": "jlnko",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.70.0"
+  }
+}

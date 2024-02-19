@@ -1,0 +1,39 @@
+.series{
+    background-color: $color-lightPurple;
+    & h2{
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+        font-family: $font-list;
+        color: $color-redDark;
+    }
+}
+.container_cards{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+
+}
+.card{
+    width: 250px;
+    height: 400px;
+    border: 2px solid $color-darkPurple;
+    border-radius: 25px;
+    padding: 25px 15px;
+    background-color: $color-redMiddle;
+    transition: all 1.2s ease-in-out;
+    &:hover{
+        background-color: $color-lightPurple;
+    }
+    & img{
+        max-width: 80%;
+    }
+}
+.card_etoiles{
+    display: flex;
+}

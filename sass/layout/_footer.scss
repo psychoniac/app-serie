@@ -1,0 +1,23 @@
+footer{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient($color-purple, $color-darkPurple);
+    & img{
+        width: 200px;
+        max-height: 200px;
+        border-radius: 25px;
+        padding: 15px 15px;
+    }
+}
+.footer_reseau{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    & ul{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
